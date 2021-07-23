@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>ノスタルジックを感じよう</title>
+    <style>
+        #haikei {
+            height:1000px;
+        }
+        .h1 {
+          position:absolute;
+          top:50px;
+          left:430px;
+        }
+        .higurasi {
+          position:absolute;
+          top:130px;
+          left:430px;
+          height:230px;
+        }
+        .btn1 {
+          position: absolute;
+          bottom: 100px;
+          left: 550px;
+          height: 50px;
+          width:70px;
+        }
+        .btn2 {
+          position: absolute;
+          bottom: 100px;
+          left: 620px;
+          height: 50px;
+          width:70px;
+        }
+    </style>
+  </head>
+  <body>
+    
+    <div id="haikei" style="background: url(ex.jpg);">
+        <h1 class="h1">ノスタルジックを感じよう！</h1>
+        <img src="higurasi.jpg" class="higurasi">
+        <button class="btn1" type="button" onclick="onbuttonclick()"><p>再生</p></button>
+        <button class="btn2" type="button" onclick="onbuttonclick2()"><p>停止</p></button>
+    </div>
+    <audio id="semi" src="夕方のヒグラシ.mp3"></audio>
+    <script src="app.js"></script>
+  </body>
+</html>
